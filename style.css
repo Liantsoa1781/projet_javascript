@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.contenu{ 
+    margin-top: 22rem;
+    margin-left: 30rem;
+    padding: 3rem;
+    border: solid;
+    width: 50rem;
+    height: 13rem;
+}
+
+.champ_ordi{
+    margin-bottom: 5rem;
+}
+
+.bouttons{
+    justify-content: space-between;
+}
+
+button{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#pierre{
+    background-color: cornflowerblue;
+}
+
+#feuille{
+    background-color: rgb(248, 136, 95);
+}
+
+#ciseaux{
+    background-color: rgb(245, 59, 97);
+}
+
+#score{
+    color: brown;
+}

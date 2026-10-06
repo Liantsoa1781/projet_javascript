@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierre Feuille Ciseaux</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="">Ordinateur: </label>
-    <input type="text" id="choix_ordinateur"><br>
+    <div class="contenu">
+        <div class="champ_ordi">
+            <label for="">Ordinateur: </label>
+            <input type="text" id="choix_ordinateur"><br>
+        </div>
+        
 
-    <button id="pierre">Pierre</button>
-    <button id="feuille">Feuille</button>
-    <button id="ciseaux">Ciseaux</button>
+        <div class="bouttons">
+            <button id="pierre">Pierre</button>
+            <button id="feuille">Feuille</button>
+            <button id="ciseaux">Ciseaux</button>
+        </div>
 
-    <p id="resultat"></p>
-    <p id="score"></p>
+        <p id="resultat"></p>
+        <p id="score"></p>
+
+    </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
